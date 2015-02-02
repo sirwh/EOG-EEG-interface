@@ -165,3 +165,6 @@ figure;
 plot(dis)
 
 drawblinkline3(re, blkgr, 10);
+
+%% save the thresholds
+save('EOG_TH.mat', 'THblink', 'THfrown', 'THgazeL', 'THgazeR', 'THwinkL', 'THwinkR');
